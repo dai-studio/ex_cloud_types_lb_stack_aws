@@ -1,0 +1,29 @@
+{
+  "name": "lb-stack",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Load balanced service on AWS (from DAI Studio diagram 31191b2f)",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=26.10.0"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "test": "vitest run",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.272.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "aws-cdk": "2.1143.0",
+    "tsx": "^4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
