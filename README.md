@@ -1,7 +1,9 @@
 # lb-stack
 
 AWS CDK (TypeScript) implementation of the DAI Studio diagram **"LB Stack"**
-(`https://dai.studio/ted/ex_cloud_types_lb_stack_aws`, v0.1.0, "Build a load balanced service on AWS").
+https://dai.studio/blog/ex_cloud_types_lb_stack_aws
+v0.1.0
+Build a load balanced service on AWS
 
 ![LB Stack diagram](diagram.png)
 
